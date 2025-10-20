@@ -21,8 +21,8 @@ The system shall ship parcels only to the USA or Canada.
 
 If we use equivalence class partitioning, we come up with two classes:
 
-- ["USA", "CANADA"] (valid to ship)
-- anything not in ["USA", "CANADA"] (invalid to ship)
+- ["USA", "Canada"] (valid to ship)
+- anything not in ["USA", "Canada"] (invalid to ship)
 
 Now, you are actually provided with an implementation of this parcel destination checking knowledge. Don't look at the implementation yet.
 We now implement the above test cases in tests/test_parcel.py .

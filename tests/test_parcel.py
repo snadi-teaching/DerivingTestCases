@@ -7,9 +7,7 @@ from parcel_mgmt.parcel import Parcel, ship_parcel
     [
         (1, Parcel("P001", 5.0, "USA"), "Shipped"),
         (2, Parcel("P002", 10.0, "Canada"), "Shipped"),
-        (3, Parcel("P003", 2.5, "Italy"), "Invalid Destination"),
-        (4, Parcel("P004", 7.0, "Usa"), "Shipped"),
-        (5, Parcel("P005", 3.0, "Ca"), "Shipped"),
+        (3, Parcel("P003", 2.5, "Italy"), "Invalid Destination")
     ],
     ids=lambda x: x,
 )
